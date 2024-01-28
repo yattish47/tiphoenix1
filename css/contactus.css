@@ -1,0 +1,107 @@
+
+.contact_us{
+    padding: 120px 10% 120px 10%;
+    background-image: url("../asset/redporche.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    background-attachment: fixed;
+
+}
+
+.contact_us>.title>h1{
+    color: rgb(255, 255, 255);
+    font-family: baseNeu;
+    font-size: 2.9em;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 85%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container .content .left-side{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+  }
+
+  .content .left-side .details{
+    margin: 14px;
+    text-align: center;
+  }
+  .content .left-side .details i{
+    font-size: 30px;
+    color: #000057;
+    margin-bottom: 10px;
+  }
+  .content .left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .content .left-side .details .text-one,
+  .content .left-side .details .text-two{
+    font-size: 14px;
+    color: #afafb6;
+  }
+
+
+
+ 
+
+ 
+  @media (max-width: 950px) {
+    .contact_us{
+      padding: 120px 6% 120px 5%;
+  
+    }
+
+    .container{
+      width: 100%;
+      padding: 30px 35px 40px 35px ;
+    }
+    
+    .container .content .right-side{
+      width: 75%;
+      margin-left: 55px;
+    }
+
+    .right-side .button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 820px) {
+    .container .content{
+      flex-direction: column-reverse;
+    }
+   .container .content .left-side{
+     width: 100%;
+     flex-direction: row;
+     margin-top: 40px;
+     justify-content: center;
+     flex-wrap: wrap;
+   }
+   .container .content .left-side::before{
+     display: none;
+   }
+   .container .content .right-side{
+     width: 100%;
+     margin-left: 0;
+   }
+  }

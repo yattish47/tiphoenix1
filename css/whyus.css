@@ -1,0 +1,70 @@
+
+.why-us{
+    background-image: url("../asset/whyus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 100vw;
+    background-attachment: fixed;
+}
+
+.why-us>.title>h1{
+    color: white;
+    font-family: baseNeu;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    height: 400px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    margin: 0px 25px 25px 25px;
+}
+
+.icon{
+    background-color: #000057;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-us>.cards>.card>.content>h3>b{
+    color: black;
+    font-family: helvetica;
+    text-transform: uppercase;
+}
+
+.why-us>.cards>.card>.content>h3{
+    color: black;
+    font-family: helvetica;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.why-us>.cards>.card>.content>p{
+    color: black;
+    text-align: center;
+}
+
+
+
+
+

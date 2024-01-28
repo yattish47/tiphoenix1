@@ -1,0 +1,14 @@
+
+.cars{
+    padding: 120px 10% 120px 10%;
+    width: 100vw;
+    background-color: white;
+}
+
+.cars>.title>h1{
+    color: black;
+    font-family: baseNeu;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+

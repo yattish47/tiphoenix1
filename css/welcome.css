@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono&display=swap');
+
+.wel_section{
+    width: 100vw;
+}
+
+.welcome_part{
+    width: 100vw;
+    padding: 120px 0px 120px 0px;
+}
+
+#title{
+    padding-left: 10%;
+    margin-right: 5%;
+}
+
+#title>h1{
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+#content{
+    padding-right: 10%;
+}
+
+#content>p{
+    color: #282828;
+    font-family:helvetica;
+    font-size: 1.1vw;
+    text-align: justify ;
+    line-height: 50px;
+}
+
+
+
+@media screen and (max-width: 750px){
+    .welcome_part{
+        display:block;
+        background-color: white;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    #title{
+        margin-bottom: 50px;
+    }
+
+    #title>h1{
+        color: black;
+        font-family: baseNeu;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #content{
+        padding-right: 0%;
+    }
+
+
+    #content>p{
+        color: black;
+        font-family:helvetica;
+        font-size: 1em;
+        text-size-adjust: none;
+        
+    }
+
+} 
